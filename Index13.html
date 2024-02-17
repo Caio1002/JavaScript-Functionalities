@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Comentários -->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Atividade JavaScript</title>
+        <link rel="stylesheet" type="text/css" href="Estilo/Css.css" />
+        <link rel="icon" href="Imagens/Javascript.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <header id="cabecalho">
+            Funcionalidades JavaScript
+        </header> 
+        
+        <main>
+            
+            <div class="container superior">
+                
+                <div>
+                    <select id="sel_fundo">
+                        <option value="" selected disabled>Escolha uma cor de fundo...</option>
+                        <option value="opc_fundo_azul">Azul</option>
+                        <option value="opc_fundo_cinza">Cinza</option>
+                        <option value="opc_fundo_verde">Verde</option>                    
+                    </select>
+
+                    <br /> 
+                    
+                    <div id="div_cor_fundo">
+                        Área de Teste da Cor de Fundo
+                    </div>
+
+                </div>
+                
+                <div>
+                    Escolha uma cor para a fonte:
+                    <br />
+                    <input type="radio" name="rb_fonte" value="opc_fonte_marrom" />Marrom
+                    <input type="radio" name="rb_fonte" value="opc_fonte_vermelho" />Vermelho
+                    <input type="radio" name="rb_fonte" value="opc_fonte_violeta" />Violeta
+                </div>
+                
+                <div>
+                    Escolha a decoração para a fonte:
+                    <br />
+                    <input type="checkbox" id="cb_linha_meio" value="opc_linha_meio" />Linha
+                    <input type="checkbox" id="cb_borda" value="opc_borda" />Borda
+                </div>
+
+                <div>
+                    Escreva algo:
+                    <br />
+                    <input type="text" id="txt_texto_novo" size="20" maxlength="20" />
+                    <br />
+                    <input type="button" id="bt_troca_texto" value="Atualizar" />
+                </div>
+
+                <div id="div_area_teste">
+                    Área de Teste
+                </div>
+
+            </div>
+
+            <div class="container inferior">
+                
+                <div>
+                    <select id="cabecalhofnd">
+                        <option value="" selected disabled>Escolha um fundo para o Cabeçalho...</option>
+                        <option value="opc_cabecalhofnd_amarelo">Amarelo</option>
+                        <option value="opc_cabecalhofnd_verde">Verde</option>
+                        <option value="opc_cabecalhofnd_vermelho">Vermelho</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="imgfnd" id="imgfnd" value="imgfnd">
+                    Imagem de Fundo
+                    <div id="AreaTesteFnd">
+                        Área de Teste Imagem de Fundo
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="OpacidadeTransp" id="OpacidadeTransp" value="OpacidadeTransp">
+                    Opacidade (Transparência)
+                    <br>
+                    <img id="javaimg" src="imagens/Javascript.png" alt="Logo JavaScipt">
+                </div>
+
+                <div>
+                    Escolha uma fonte:
+                    <br>
+                    <input type="button" class="Audiowide" id="Audiowide" value="Audiowide">
+                    <input type="button" class="Monoton" id="Monoton" value="Monoton">
+                    <p id="AreaTesteFonte">Vai trocar a fonte aqui!</p>
+                </div>
+
+            </div>
+            
+        </main>
+
+     <script src="scripts/jscript.js"></script>
+    
+    </body>
+</html>
